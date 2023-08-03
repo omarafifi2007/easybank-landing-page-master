@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Div1
+{
+    width: 100%;
+    height: 100vh;
+}
+nav
+{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+p
+{
+    color: hsl(233, 8%, 62%);
+}
+nav ul li
+{
+    margin-left: 30px;
+    display: inline-block;
+}
+button
+{
+    border: 0;
+    outline: 0;
+    width: 145px;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    background: linear-gradient(to right, hsl(136, 65%, 51%),  hsl(192, 70%, 51%));
+}
+.Content
+{
+    height: 50vh;
+    display: flex;
+    margin: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.Content img
+{
+    width: 800px;
+    position: absolute;
+    left: 460px;
+    top: 0;
+    z-index: -1;
+}
+.Content #Img
+{
+    width: 700px;
+    position: absolute;
+    left: 560px;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+.Content2
+{
+    margin: 40px;
+    margin-top: 150px;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+.Row1
+{
+    margin-right: 35px;
+}
+.Content3
+{
+    margin: 40px;
+    margin-top: 200px;
+}
+.Row2
+{
+    margin-right: 35px;
+}
+.Row2 img
+{
+    width: 250px;
+    height: 200px;
+}
+footer
+{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    justify-self: center;
+    background-color:  hsl(233, 26%, 24%);
+}
+footer .Imgs
+{
+    margin-left: 100px;
+}
+footer .Imgs img
+{
+    margin-bottom: 40px;
+}
+.A
+{
+    margin-left: 100px;
+}
+.A p
+{
+    margin-bottom: 15px;
+}
+.B
+{
+    margin-left: 100px;
+}
+.B p
+{
+    margin-bottom: 15px;
+}
+.a
+{
+    margin-left: 400px;
+}
